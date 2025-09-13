@@ -6,11 +6,6 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "functions": {
-    "app/api/**/*.js": {
-      "runtime": "vercel/node@20.x"
-    }
-  },
   "env": {
     "NODE_ENV": "production"
   },
