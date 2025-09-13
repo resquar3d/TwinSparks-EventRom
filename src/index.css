@@ -1,0 +1,41 @@
+:root {
+  --bg: #0d1117;
+  --bg-secondary: #161b22;
+  --panel: rgba(255, 255, 255, 0.06);
+  --panel-hover: rgba(255, 255, 255, 0.09);
+  --text: #e6edf3;
+  --text-secondary: #9da8b6;
+  --brand: #00c2ff;
+  --brand-secondary: #00ffa3;
+  --danger: #ff4444;
+  --success: #00ff88;
+  --warning: #ffaa00;
+  --border: rgba(255, 255, 255, 0.08);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.3);
+  --gradient-brand: linear-gradient(135deg, var(--brand), var(--brand-secondary));
+  --gradient-dark: linear-gradient(180deg, rgba(13, 17, 23, 0.7), rgba(13, 17, 23, 0.35));
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
